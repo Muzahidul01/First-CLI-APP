@@ -41,11 +41,22 @@
 // console.log('Your score ' + score);
 
 
-function add(numberone, numbertwo) {
-    console.log('Number One', numberone, 'Number Two', numbertwo);
-    var sum = numberone * numbertwo;
-    return sum;
+// function add(numberone, numbertwo) {
+//     console.log('Number One', numberone, 'Number Two', numbertwo);
+//     var sum = numberone * numbertwo;
+//     return sum;
+
+// }
+// var result = add(5, 9)
+// console.log('the answer of 9+5 is ', result);
+
+var readlineSync = require('readline-sync');
+
+
+function npo(one, two) {
+    var sum = one * two;
+    return sum
 
 }
-var result = add(5, 9)
-console.log('the answer of 9+5 is ', result);
+var result = npo(15, 10)
+console.log(result);
