@@ -51,12 +51,3 @@
 // console.log('the answer of 9+5 is ', result);
 
 var readlineSync = require('readline-sync');
-
-
-function npo(one, two) {
-    var sum = one * two;
-    return sum
-
-}
-var result = npo(15, 10)
-console.log(result);
